@@ -4,13 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .add-cart {
+        background-color: rgba(255, 255, 0, 0.71);
+        height: 30px;
+        width: 170px;
+        border-radius: 20px;
+        cursor:pointer;
+        border: none;
+        display: block;
+        margin-bottom: 5px;
+
+        }
+        .add-cart:hover{
+            opacity: 0.8;
+
+        }
+        .add-cart:active{
+            opacity: 0.5;
+        }
+
+        .buy-now{
+            height: 30px;
+            width:  170px;
+            border: none;
+            background-color: rgb(255, 179, 0);
+            cursor: pointer;
+            border-radius: 20px;
+        }
+
+        .buy-now:hover{
+            opacity:0.8
+        }
+
+        .buy-now:active{
+            opacity:0.5
+        }
+
+        .in-stock{
+            color: green;
+            font-family: Verdana, Geneva, Tahoma, sans-serif
+            'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 300;
+            
+        }
+
+        .nike-shoes{
+            font-size: 18px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+    </style>
 </head>
 <body>
     <a href="https://www.amazon.com/" target="_blank">Back to Amazon</a>
-    <h1>Nike Black Running Shoes</h1>
-     <p>$39 - in stock</p>
-     <p>Free delivery tomorrow.</p>
-    <button>Add to Cart</button>
-    <button>Buy Now</button>
+    <h1 class=".nike-shoes">Nike Black Running Shoes</h1>
+    <h2>$39</h2>
+    <p>Free delivery <strong>Tomorrow</strong></p>
+    <h3 class="in-stock" >In stock</h3>
+    <button class="add-cart">Add to Cart</button>
+    <button class="buy-now">Buy Now</button>
 </body>
 </html>
