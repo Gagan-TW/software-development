@@ -1,0 +1,43 @@
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 0;
+            margin-bottom: 0px;
+        }
+
+        .video-title{
+            width: 300px;
+            
+            
+        }
+
+        .video-views{
+            margin-top: 5px;
+            color: grey;
+            
+        }
+
+        .video-maker {
+            margin-top: 5px;
+            color: grey;
+            margin-bottom: 20px;
+
+        }
+
+        .video-description {
+            color: grey;
+            width: 300px;
+            margin-bottom: 20px;
+        }
+
+        .video-callout {
+            background-color: rgba(255, 0, 0, 0.856);
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .shop-now:hover { 
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
