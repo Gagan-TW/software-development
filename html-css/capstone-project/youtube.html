@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube Capstone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+            font-family: Roboto, Arial, Helvetica, sans-serif;
+        }
         .thumbnail {
             width: 300px;
+            margin-right: 10px;
         
         }
 
-        .video-title {
-            width: 300px;
-        }
+    
 
         .search-bar {
             display: block;
@@ -21,47 +28,97 @@
 
         .video-preview {
             display: inline-block;
-            margin-right: 10px;
+         
         }
 
+        .video-maker {
+            display: inline-block;
+            vertical-align: top;
+    
+            
+            
+        }
+        .video-info {
+            display: inline-block;
+            width: 200px;
+            margin-top: 0;
+          
+            
+        }
+
+        .horizontal-layout {
+    
+            margin-top: 10px;
+        }
+
+        .profile-pic {
+            width: 40px;
+            
+            display: inline-block;
+            border-radius: 500px;
+         
+        }
+
+
+        .video-maker-name, 
+        .video-views {
+            margin-bottom: 4px;
+            font-size: 14px;
+        }
+
+        .video-title {
+
+            margin-bottom: 8px;
+           
+        }
 
     </style>
 </head>
 <body>
     <input class="search-bar" type="text" placeholder="Search">
-    
+    <!--This is first video thumbnail-->
     <div class="video-preview">
-    <div>
-     <img class="thumbnail" src="thumbnail-1.webp" alt="1">
-    </div>
+        <!--This is first vertical layout-->
+        <div>
+            <img class="thumbnail" src="thumbnail-1.webp" alt="1">
+        </div>
+        <!--This is second vertical layout-->
+        <div class="horizontal-layout">
+            <!--This is first horizontal layout-->
+            <div class="video-maker">
+                <img class="profile-pic" src="channel-1.jpg" alt="maker">
+            </div>
 
-   <div>
-    <div>
-    <img src="channel-1.jpg" alt="maker">
-   </div>
-    <div>
-    <p class="video-title"><strong>Talking Tech and AI with Google CEO Sundar Pichai!</strong></p>
-    <p class="video-maker-name">Marques Brownlee &check;</p>
-    <p class="video-views">3.4M views &middot; 6 months ago</p>
-    </div>
-   </div>
+            <!--This is second horizontal layout-->
+            <div class="video-info">
+                <p class="video-title"><strong>Talking Tech and AI with Google CEO Sundar Pichai!</strong></p>
+                <p class="video-maker-name">Marques Brownlee &check;</p>
+                <p class="video-views">3.4M views &middot; 6 months ago</p>
+            </div>
+        </div>
     </div> 
 
+    <!--This is second video thumbnail-->
+    <!--This is first video thumbnail-->
     <div class="video-preview">
-    <div>
-     <img class="thumbnail" src="thumbnail-1.webp" alt="1">
-    </div>
+        <!--This is first vertical layout-->
+        <div>
+            <img class="thumbnail" src="thumbnail-2.webp" alt="1">
+        </div>
+        <!--This is second vertical layout-->
+        <div class="horizontal-layout">
+            <!--This is first horizontal layout-->
+            <div class="video-maker">
+                <img class="profile-pic" src="channel-2.jpeg" alt="maker">
+            </div>
 
-   <div>
-    <div>
-    <img src="channel-1.jpg" alt="maker">
-   </div>
-    <div>
-    <p class="video-title"><strong>Talking Tech and AI with Google CEO Sundar Pichai!</strong></p>
-    <p class="video-maker-name">Marques Brownlee &check;</p>
-    <p class="video-views">3.4M views &middot; 6 months ago</p>
-    </div>
-   </div>
+            <!--This is second horizontal layout-->
+            <div class="video-info">
+                <p class="video-title"><strong>Try Not To Laugh Challenge #9</strong></p>
+                <p class="video-maker-name">Markiplier &check;</p>
+                <p class="video-views">19M views &middot; 4 years ago </p>
+            </div>
+        </div>
     </div> 
    
 </body>
