@@ -12,12 +12,13 @@
             padding: 10px 20px;
             font-family: Arial, Helvetica, sans-serif;
             border: none;
-            margin-right: 5px;
+            margin-right: 15px;
+            border: none;
         }
 
         .schedule-ride {
             border-radius: 0;
-            background-color: rgba(222, 217, 217, 0.94);
+            background-color: rgba(206, 203, 203, 0.94);
             color: black;
             padding: 10px 20px;
             font-family: Arial, Helvetica, sans-serif;
@@ -28,11 +29,31 @@
         .request-ride {
             font-family: Arial, Helvetica, sans-serif;
         }
+        .pickup {
+            display: block;
+            width: 400px;
+            height: 30px;
+            background-color: rgb(227, 225, 225);;
+            border: none;
+        }
+        
+        .destination {
+
+            display: block;
+            width: 400px;
+            height: 30px;
+            background-color: rgb(227, 225, 225);
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border: none;
+        }
 
     </style>
 </head>
 <body>
-    <h1 class="request-ride">Request a ride</h1>
+    <h1 class="request-ride">Request a ride now</h1>
+    <input class="pickup" type="text" placeholder="Enter pickup location"> 
+    <input class="destination" type="text" placeholder="Enter destination"> 
     <button class="request-now">Request now</button>
     <button class="schedule-ride">Schedule for later</button>
 
