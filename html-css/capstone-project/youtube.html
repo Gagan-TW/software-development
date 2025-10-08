@@ -14,8 +14,8 @@
             font-family: Roboto, Arial, Helvetica, sans-serif;
         }
         .thumbnail {
-            width: 300px;
-            margin-right: 10px;
+           
+           width: 100%;
         
         }
 
@@ -27,34 +27,32 @@
         }
 
         .video-preview {
-            display: inline-block;
+           
          
         }
 
         .video-maker {
             display: inline-block;
             vertical-align: top;
+            
     
             
             
         }
         .video-info {
-            display: inline-block;
-            width: 200px;
+           
+           
             margin-top: 0;
+          
           
             
         }
 
-        .horizontal-layout {
     
-            margin-top: 10px;
-        }
-
         .profile-pic {
             width: 40px;
             
-            display: inline-block;
+    
             border-radius: 500px;
          
         }
@@ -72,54 +70,149 @@
            
         }
 
+         .horizontal-layout {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+            margin-top: 10px;
+        }
+        .parent-div {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 40px;
+        }
     </style>
 </head>
 <body>
     <input class="search-bar" type="text" placeholder="Search">
-    <!--This is first video thumbnail-->
-    <div class="video-preview">
-        <!--This is first vertical layout-->
-        <div>
-            <img class="thumbnail" src="thumbnail-1.webp" alt="1">
-        </div>
-        <!--This is second vertical layout-->
-        <div class="horizontal-layout">
-            <!--This is first horizontal layout-->
-            <div class="video-maker">
-                <img class="profile-pic" src="channel-1.jpg" alt="maker">
-            </div>
+        <div class="parent-div">
+            <!--This is first video thumbnail-->
+            <div class="video-preview">
+                <!--This is first vertical layout-->
+                <div>
+                    <img class="thumbnail" src="img/thumbnail-1.webp" alt="1">
+                </div>
+                <!--This is second vertical layout-->
+                <div class="horizontal-layout">
+                    <!--This is first horizontal layout-->
+                    <div class="video-maker">
+                        <img class="profile-pic" src="img/channel-1.jpg" alt="maker">
+                    </div>
+                    <!--This is second horizontal layout-->
+                    <div class="video-info">
+                        <p class="video-title"><strong>Talking Tech and AI with Google CEO Sundar Pichai!</strong></p>
+                        <p class="video-maker-name">Marques Brownlee &check;</p>
+                        <p class="video-views">3.4M views &middot; 6 months ago</p>
+                    </div>
+                </div>
+            </div> 
 
-            <!--This is second horizontal layout-->
-            <div class="video-info">
-                <p class="video-title"><strong>Talking Tech and AI with Google CEO Sundar Pichai!</strong></p>
-                <p class="video-maker-name">Marques Brownlee &check;</p>
-                <p class="video-views">3.4M views &middot; 6 months ago</p>
-            </div>
-        </div>
-    </div> 
+            
+        <!--This is first video thumbnail-->
+            <div class="video-preview">
+                <!--This is first vertical layout-->
+                <div>
+                    <img class="thumbnail" src="img/thumbnail-2.webp" alt="1">
+                </div>
+                <!--This is second vertical layout-->
+                <div class="horizontal-layout">
+                    <!--This is first horizontal layout-->
+                    <div class="video-maker">
+                        <img class="profile-pic" src="img/channel-2.jpeg" alt="maker">
+                    </div>
+                    <!--This is second horizontal layout-->
+                    <div class="video-info">
+                        <p class="video-title"><strong>Talking Tech and AI with Google CEO Sundar Pichai!</strong></p>
+                        <p class="video-maker-name">Marques Brownlee &check;</p>
+                        <p class="video-views">3.4M views &middot; 6 months ago</p>
+                    </div>
+                </div>
+            </div> 
 
-    <!--This is second video thumbnail-->
-    <!--This is first video thumbnail-->
-    <div class="video-preview">
-        <!--This is first vertical layout-->
-        <div>
-            <img class="thumbnail" src="thumbnail-2.webp" alt="1">
-        </div>
-        <!--This is second vertical layout-->
-        <div class="horizontal-layout">
-            <!--This is first horizontal layout-->
-            <div class="video-maker">
-                <img class="profile-pic" src="channel-2.jpeg" alt="maker">
-            </div>
+            <!--This is first video thumbnail-->
+            <div class="video-preview">
+                <!--This is first vertical layout-->
+                <div>
+                    <img class="thumbnail" src="img/thumbnail-3.webp" alt="1">
+                </div>
+                <!--This is second vertical layout-->
+                <div class="horizontal-layout">
+                    <!--This is first horizontal layout-->
+                    <div class="video-maker">
+                        <img class="profile-pic" src="img/channel-3.jpeg" alt="maker">
+                    </div>
+                    <!--This is second horizontal layout-->
+                    <div class="video-info">
+                        <p class="video-title"><strong>Talking Tech and AI with Google CEO Sundar Pichai!</strong></p>
+                        <p class="video-maker-name">Marques Brownlee &check;</p>
+                        <p class="video-views">3.4M views &middot; 6 months ago</p>
+                    </div>
+                </div>
+            </div> 
 
-            <!--This is second horizontal layout-->
-            <div class="video-info">
-                <p class="video-title"><strong>Try Not To Laugh Challenge #9</strong></p>
-                <p class="video-maker-name">Markiplier &check;</p>
-                <p class="video-views">19M views &middot; 4 years ago </p>
-            </div>
+            <!--This is fourth video thumbnail-->
+            <div class="video-preview">
+                <!--This is first vertical layout-->
+                <div>
+                    <img class="thumbnail" src="img/thumbnail-4.webp" alt="1">
+                </div>
+                <!--This is second vertical layout-->
+                <div class="horizontal-layout">
+                    <!--This is first horizontal layout-->
+                    <div class="video-maker">
+                        <img class="profile-pic" src="img/channel-4.jpeg" alt="maker">
+                    </div>
+                    <!--This is second horizontal layout-->
+                    <div class="video-info">
+                        <p class="video-title"><strong>Talking Tech and AI with Google CEO Sundar Pichai!</strong></p>
+                        <p class="video-maker-name">Marques Brownlee &check;</p>
+                        <p class="video-views">3.4M views &middot; 6 months ago</p>
+                    </div>
+                </div>
+            </div> 
+
+            <!--This is fifth video thumbnail-->
+            <div class="video-preview">
+                <!--This is first vertical layout-->
+                <div>
+                    <img class="thumbnail" src="img/thumbnail-5.webp" alt="1">
+                </div>
+                <!--This is second vertical layout-->
+                <div class="horizontal-layout">
+                    <!--This is first horizontal layout-->
+                    <div class="video-maker">
+                        <img class="profile-pic" src="img/channel-5.jpeg" alt="maker">
+                    </div>
+                    <!--This is second horizontal layout-->
+                    <div class="video-info">
+                        <p class="video-title"><strong>Talking Tech and AI with Google CEO Sundar Pichai!</strong></p>
+                        <p class="video-maker-name">Marques Brownlee &check;</p>
+                        <p class="video-views">3.4M views &middot; 6 months ago</p>
+                    </div>
+                </div>
+            </div> 
+
+            <!--This is sixth video thumbnail-->
+            <div class="video-preview">
+                <!--This is first vertical layout-->
+                <div>
+                    <img class="thumbnail" src="img/thumbnail-6.webp" alt="1">
+                </div>
+                <!--This is second vertical layout-->
+                <div class="horizontal-layout">
+                    <!--This is first horizontal layout-->
+                    <div class="video-maker">
+                        <img class="profile-pic" src="img/channel-6.jpeg" alt="maker">
+                    </div>
+                    <!--This is second horizontal layout-->
+                    <div class="video-info">
+                        <p class="video-title"><strong>Talking Tech and AI with Google CEO Sundar Pichai!</strong></p>
+                        <p class="video-maker-name">Marques Brownlee &check;</p>
+                        <p class="video-views">3.4M views &middot; 6 months ago</p>
+                    </div>
+                </div>
+            </div> 
+
         </div>
-    </div> 
-   
-</body>
+    </body>
 </html>
